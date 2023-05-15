@@ -1,0 +1,7 @@
+.GUI {
+    background:#D9D9DB;
+    border-style: groove;
+    border-color: #05a100;
+    width:attr(data-width);
+    height:attr(data-height);
+}
