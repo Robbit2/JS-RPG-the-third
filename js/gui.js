@@ -1,3 +1,6 @@
+const h = window.innerHeight;
+const w = window.innerWidth;
+
 class GUI {
     constructor ({height, width, x ,y, name}) {
         // init object variables

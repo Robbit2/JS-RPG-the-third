@@ -1,5 +1,6 @@
 .GUI {
     background:#D9D9DB;
+    display:block;
     border:4px groove #a3a3a3;
     width:var(--width);
     height:var(--height);
