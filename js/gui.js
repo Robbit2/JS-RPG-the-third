@@ -13,9 +13,8 @@ class GUI {
         this.div.classList.add("GUI");
         this.div.innerHTML = "E"
 
-        // built in div data variables
-        this.div.dataset.width = this.width;
-        this.div.setAttribute("data-height", this.height);
+        // built in div css variables
+        this.div.style = `--width:${this.width};--height:${this.height};`;
     }
 
     add () {
