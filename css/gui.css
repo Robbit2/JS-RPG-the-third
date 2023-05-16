@@ -4,4 +4,7 @@
     border:4px groove #a3a3a3;
     width:var(--width);
     height:var(--height);
+    position:relative;
+    left:var(--x);
+    top:var(--y);
 }

@@ -17,7 +17,7 @@ class GUI {
         this.div.innerHTML = "E"
 
         // built in div css variables
-        this.div.style = `--width:${this.width};--height:${this.height};`;
+        this.div.style = `--width:${this.width};--height:${this.height};--x:${this.x}px;--y:${this.y}px;`;
     }
 
     add () {
