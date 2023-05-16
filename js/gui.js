@@ -2,7 +2,7 @@ const h = window.innerHeight;
 const w = window.innerWidth;
 
 class GUI {
-    constructor ({height, width, x ,y, name}) {
+    constructor ({height, width, x ,y, name, title}) {
         // init object variables
         this.height = height;
         this.width = width;
@@ -14,7 +14,7 @@ class GUI {
         this.div = document.createElement("div");
         this.div.id = `GUI-${this.name}`;
         this.div.classList.add("GUI");
-        this.div.innerHTML = "E"
+        this.div.innerHTML = `<h1>${title}</h1>`;
 
         // built in div css variables
         this.div.style = `--width:${this.width};--height:${this.height};--x:${this.x}px;--y:${this.y}px;`;
