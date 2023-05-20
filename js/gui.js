@@ -35,6 +35,7 @@ class GUI {
     }
 }
 
+// container can hold items in it
 class Container extends GUI {
     constructor ({slotsx, slotsy, title}) {
         this.slotsx = slotsx;
