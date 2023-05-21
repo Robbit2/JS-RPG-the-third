@@ -8,3 +8,10 @@
     left:var(--x);
     top:var(--y);
 }
+
+.GUI .slot {
+    height:64px;
+    width:64px;
+    border:4px groove #a3a3a3;
+    padding:0px;
+}

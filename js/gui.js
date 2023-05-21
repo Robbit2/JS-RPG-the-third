@@ -34,12 +34,3 @@ class GUI {
         this.div.style.visibility = "visible";
     }
 }
-
-// container can hold items in it
-class Container extends GUI {
-    constructor ({slotsx, slotsy, title}) {
-        this.slotsx = slotsx;
-        this.slotsy = slotsy;
-        this.title = title;
-    }
-}
