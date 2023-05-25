@@ -13,4 +13,11 @@ class calculation {
         let damage = initial_Damage * damage_Multiplier * (1 + armorBonus);
         return damage;
     }
+
+    damageReduction ({defense}) {
+        let reductionPercent = defense / ( defense + 100 );
+        return reductionPercent;
+    }
 }
+
+const calc = new calculation();

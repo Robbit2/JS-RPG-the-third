@@ -34,3 +34,7 @@ class GUI {
         this.div.style.visibility = "visible";
     }
 }
+
+function renderInventory(){
+    
+}
