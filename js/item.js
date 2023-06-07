@@ -59,3 +59,9 @@ class Armor extends Item {
         this.health = health;
     }
 }
+
+class Consumable extends Item {
+    constructor ({heal}) {
+        this.heal = heal;
+    }
+}

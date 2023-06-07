@@ -3,4 +3,39 @@ html, body {
     width:100%;
     margin:0;
     background:#D9D9DB;
+    overflow:hidden;
+}
+
+nav#gameNavbar{
+    height:10vh;
+    width:100vw;
+    position:absolute;
+    left:0px;
+    bottom:5%;
+    margin:0;
+    padding:0;
+}
+
+nav#gameNavbar ul{
+    height:100%;
+    width:100%;
+    padding-top:8px;
+    padding-bottom: 8px;
+    margin:0;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav#gameNavbar ul li{
+    width:15vh;
+    height:10vh;
+    margin:0;
+    list-style-type: none;
+}
+
+nav#gameNavbar ul li button {
+    width:100%;
+    height:100%;
+    margin:0;
 }

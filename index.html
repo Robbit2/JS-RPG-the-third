@@ -7,13 +7,35 @@
     <link href="../css/main.css" rel="stylesheet">
     <link href="../css/gui.css" rel="stylesheet">
     <script src='https://github.com/bevacqua/dragula/blob/master/dragula.js' defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>./index.html</title>
 </head>
 <body>
+    <!-- Game Content -->
+    <main>
+        <!---->
+        <nav id="gameNavbar">
+            <ul>
+                <li><button id="combat-button"><i class="fa-solid fa-hand-fist"></i></button></li>
+                <li><button id="player-button"><i class="fa-solid fa-user"></i></button></li>
+                <li>⚜<i class="fa-solid fa-swords" style="color: #141414;"></i><i class="fa-solid fa-sword"></i></li>
+                <li><button id="research-button"><i class="fa-solid fa-flask"></i></button></li>
+                <li>⚜<i class="fa-solid fa-swords" style="color: #141414;"></i><i class="fa-solid fa-sword"></i></li>
+            </ul>
+        </nav>
+
+
+        <p id="player-stats"></p>
+    </main>
+    <script type="module">
+        import { v4 as uuidv4 } from 'https://jspm.dev/uuid';
+        console.log(uuidv4()); // ⇨ '1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd4bed'
+    </script>
     <script src="./js/calc.js"></script>
     <script src="./js/item.js"></script>
     <script src="./js/entity.js"></script>
     <script src="./js/gui.js"></script>
+    <script src="./js/player.js"></script>
     <script src="./js/main.js"></script>
 </body>
 </html>

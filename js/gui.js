@@ -21,7 +21,7 @@ class GUI {
     }
 
     add () {
-        document.body.appendChild(this.div);
+        document.body.querySelector("main").appendChild(this.div);
         return true;
     }
 
@@ -36,5 +36,10 @@ class GUI {
 }
 
 function renderInventory(){
-    
+    return;
+}
+
+function renderStats(player){
+    const pStatsDOM = document.querySelector("#player-stats");
+    pStatsDOM.innerHTML = `HP : ${player.stats.health} / ${player.stats.maxHealth} | STR : ${player.stats.strength} | DEF : ${player.stats.defense} | INT : ${player.stats.intelligence}`;
 }
